@@ -1,0 +1,41 @@
+# # # # def convert(s,out):
+# # # #     for i in s:
+# # # #         if 'a'<=i<='z':
+# # # #             out+=chr(ord(i)-32)
+# # # #         else:
+# # # #             out+=i
+# # # #     print(out)
+# # # #     return out
+# # # # print(convert(input('enter a string:'), ''))
+# # # class college:
+# # #     cname='abc'
+# # #     cloc='xyz'
+# # # s1=college()
+# # # print(s1.cname,s1.cloc)
+# # class college:
+# #     cname='abc'
+# #     cloc='xyz'
+# # s1=college()
+# # s1.sname='pqr'
+# # s1.ph=1234567890
+# # s2=college()
+# # s2.sname='stu'
+# # s2.ph=9876543214
+# # print(s1.cloc)
+# # s1.cloc='jjk'
+# # print("after changing")
+# # print(s1.cloc)
+# # print(s2.cloc)
+# # print(college.cloc)
+# class college:
+#     def __init__(self,sname,ph,usn):
+#         self.sname=sname
+#         self.ph=ph
+#         self.usn=usn
+#     def display(self):
+#         print(self.sname,self.ph,self.usn)
+#     def update(self,sname,ph,usn):
+# s1=college('tarun',1234567890,'1ms20cs001')
+# s2=college('rahul',9876543210,'1ms20cs002')
+# s1.display()
+# s2.display()
